@@ -22,8 +22,8 @@
 	  
 
 <ul class="home">
-	<li><a  class="buttonsss" href="create.php"><strong>Create Contact </strong></a> - Register A Worker</li>
-	<li><a class="buttonsss" href="read.php"><strong>View Contact</strong></a> - Find Worker</li>
+	<li><a  class="buttonsss" href="create.php"><strong>Create Contact </strong></a></li>
+	<li><a class="buttonsss" href="read.php"><strong>View Contact</strong></a> </li>
 </ul>
 
 				
