@@ -2,8 +2,7 @@
 
 /*************************************************************
 * Author: Machai Justine Bulawayo
-* Student Number: 54651719
-* Module Name: ICT2613
+* Contact List App
 
 ************************************************************/
 
@@ -13,20 +12,25 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Task 4</title>
+        <title>Contact List App</title>
     </head>
     <body>
-        <?php include 'menu.inc';  ?>
     
      <div id="wrapper">
 	 
 	  
+	  
+
+<ul class="home">
+	<li><a  class="buttonsss" href="create.php"><strong>Create Contact </strong></a> - Register A Worker</li>
+	<li><a class="buttonsss" href="read.php"><strong>View Contact</strong></a> - Find Worker</li>
+</ul>
+
 				
 	</div>
 	
         
-         <iframe src="task4.txt" height = "400" scrolling = "yes" width = "1200">
-        <p>Your browser does not support iframes. </p> </iframe>
+    
     
     </div>
     
