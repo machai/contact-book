@@ -116,7 +116,7 @@ if (isset($_GET["edit"])) {
                    <td>  
                     <a href="delete_data.php?delete=<?php echo $row["id"];?>" onclick ="return confirm ('Are you Sure ?');" >Delete</a> |
 					
-					<a href="remove_contact.php?edit=<?php echo $row["id"];?>" onclick ="return confirm ('Are you Sure ?');"> Edit</a>  </td>
+					<a href="delete_data.php?edit=<?php echo $row["id"];?>" onclick ="return confirm ('Are you Sure ?');"> Edit</a>  </td>
 						
 						
                     </tr>
