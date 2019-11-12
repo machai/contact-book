@@ -25,7 +25,6 @@
     <?php
 
    
-
     $db['db_host'] = "sql24.cpt1.host-h.net";
     $db['db_user'] = "hotelapcyj_5";
     $db['db_pass'] = "Rme1862Pg3uhHZVeFWS8";
@@ -40,9 +39,6 @@
     $conn = new mysqli($host, $username, $password, $dbname);
 
 	
-
-	
-	
 	if (isset($_GET["delete"])) {
 
         $id = $_GET["delete"];
@@ -55,10 +51,10 @@
 
     if (isset($_POST["update_item"])) {
 
-        $item_to_update = $_POST["item_to_update"];
+        $item_to_update = $_POST["edit"];
         $id =  $_POST["id"];
 
-        $sql = "UPDATE my_list SET item_name='{$item_to_update}' WHERE id='{$id}'";
+        $sql = "UPDATE users SET item_name='{$item_to_update}' WHERE id='{$id}'";
 
         mysqli_query($connection, $sql);
     }
