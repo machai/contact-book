@@ -85,7 +85,7 @@
                    <td>  
                     <a href="remove_contact.php?delete=<?php echo $row["id"];?>" onclick ="return confirm ('Are you Sure ?');" >Delete</a> | 
 					
-					<a href="remove_contact.php?edit=<?php echo $row["id"];?>"> Edit</a>  </td>
+					<a href="remove_contact.php?edit=<?php echo $row["id"];?>" onclick ="return confirm ('Are you Sure ?');"> Edit</a>  </td>
 						
 						
                     </tr>
