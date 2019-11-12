@@ -15,6 +15,49 @@
     <meta charset="UTF-8">
     <title class="tirt" >View List</title>
 </head>
+
+<?php
+
+
+$db['db_host'] = "sql24.cpt1.host-h.net";
+$db['db_user'] = "hotelapcyj_5";
+$db['db_pass'] = "Rme1862Pg3uhHZVeFWS8";
+$db['db_name'] = "hotelapcyj_db5";
+
+foreach($db as $key => $value){
+    define(strtoupper($key), $value);
+}
+
+$conn = new mysqli(DB_HOST, DB_USER,DB_PASS,DB_NAME);
+
+
+
+if (isset($_GET["delete"])) {
+
+    $id = $_GET["delete"];
+    $sql = "DELETE FROM users WHERE id = '{$id}'";
+    $result= mysqli_query($conn, $sql);
+
+}
+
+
+
+if (isset($_GET["edit"])) {
+
+    $id = $_GET["edit"];
+    $sql = "UPDATE FROM users WHERE id = '{$id}'";
+    $result= mysqli_query($conn, $sql);
+
+}
+
+
+
+
+
+?>
+
+
+
 <body>
 
 <link rel="stylesheet" href="main.css" type="text/css">
@@ -27,18 +70,6 @@
     /**
      * Function to query information based on a parameter
 	 */
-
-
-    $db['db_host'] = "sql24.cpt1.host-h.net";
-    $db['db_user'] = "hotelapcyj_5";
-    $db['db_pass'] = "Rme1862Pg3uhHZVeFWS8";
-    $db['db_name'] = "hotelapcyj_db5";
-
-    foreach($db as $key => $value){
-        define(strtoupper($key), $value);
-    }
-
-    $conn = new mysqli(DB_HOST, DB_USER,DB_PASS,DB_NAME);
 
     // Check connection
     if ($conn->connect_error) {
@@ -83,7 +114,7 @@
                         <td><?php echo $row["date"] ?> </td>			
 							
                    <td>  
-                    <a href="remove_contact.php?delete=<?php echo $row["id"];?>" onclick ="return confirm ('Are you Sure ?');" >Delete</a> | 
+                    <a href="delete_data.php?delete=<?php echo $row["id"];?>" onclick ="return confirm ('Are you Sure ?');" >Delete</a> |
 					
 					<a href="remove_contact.php?edit=<?php echo $row["id"];?>" onclick ="return confirm ('Are you Sure ?');"> Edit</a>  </td>
 						
@@ -102,6 +133,12 @@
     //$conn->close();
 
     };
+
+
+
+
+
+
 
     ?>
 
