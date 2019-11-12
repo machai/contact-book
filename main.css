@@ -1,0 +1,222 @@
+
+
+/* Author: Machai Justine Bulawayo 
+
+  These style sheets apply to pages on this application
+
+*/
+
+
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+blockquote {
+    color: #FFF;
+    font-size: 26px;
+    text-align: center;
+    padding: 11px 0px 29px;
+}
+
+
+table {
+    width: 100% !important;
+    text-align: center;
+    border: thin solid black;
+}
+
+
+th, tr, td {
+    border: solid #6f6c6c;
+    padding: 8px;
+}
+
+
+
+form.formles {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 1.5s;
+}
+
+
+form.search_form {
+    padding: 42px 0px 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+input#phone {
+    padding: 14px;
+    width: 48%;
+}
+
+
+
+#wrapper {
+    width: 1200px;
+    margin: auto;
+    padding: 1px 53px;
+    background: #1E73BE;
+}
+
+div#home-find {
+    padding: 18px 0px 78px;
+}
+
+
+
+
+
+input[type=submit] {
+  width: 10%;
+  background-color: #03C3EA;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+a.buttonsss {
+    background: #cccc;
+    margin: 23px 0px 44px;
+    display: inline-block;
+    text-decoration-line: none;
+    background-color: #03C3EA;
+    border: none;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+    width: 169px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+iframe {
+    border: 1px solid;
+    border-radius: 6px;
+    background: beige;
+}
+
+h1{
+    font-size: 27px;
+    margin: 28px  0px 31px;
+    font-family: sans-serif;
+    padding: 26px  0px  21px;
+    text-align: center;
+    color: rgba(255,255,255,0.9);
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+
+ul.home {
+    text-align: center;
+}
+
+
+
+.form-group {
+    margin: 20px 0px 20px;
+    background: #80808042;
+    padding: 20px;
+}
+
+button.btn.btn-primary {
+    margin: 27px 0px;
+    padding: 9px;
+}
+
+
+body{
+    font-family: "Arial", "Lucida Grande", sans-serif;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    border-style: none;
+    background-color: rgba(220,220,220,0.4);
+}
+
+ul#navlist a:hover{
+    padding: 13px;
+    background-color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav a:link{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+    text-align: center;
+}
+
+
+h2.header-section {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 58px 0px 0px;
+}
+
+
+
+p{
+    font-family: cambria;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#wrapper{width: 1200px;margin: auto;}
+
+table {
+    width: 60%;
+    text-align: center;
+    border: thin solid black;   
+}
+
+th, tr, td {
+    border: solid  #6f6c6c;
+
+}
+
+tr:nth-child(even){
+    background-color: #9EE481;
+}
+
+tr:nth-child(odd){
+    background-color: #C4C4C4
+}
+
+.content-wrapper{
+    margin-left:100px;
+}
+
+.product-discount{
+    padding-top: 25px;
+}
+
+ul#navlist {
+    text-align: center;
+}
+
+ul#navlist a {
+    color: #000;
+    font-weight: 600;
+}
